@@ -8,13 +8,16 @@ GUI
 
 Results: 
 Test 1
-[■(3&0&2@6&1&8@7&5&4)]
-Algorithm	Path Cost	Nodes Expanded	Search Depth	Running Time (s)
-BFS	9	319	9	0.01
-DFS	28009	29312	28009	0.15
-IDS	9	473	9	0.01
-A* (Manhattan)	9	12	9	0.0
-A* (Euclidean)	9	12	9	0.0
+[3 0 2
+ 6 1 8
+ 7 5 4]
+Algorithm	   Path Cost	Nodes Expanded	Search Depth	Running Time (s)
+BFS	            9	          319	            9	           0.01
+DFS	          28009	        29312	         28009	       0.15
+IDS	            9	          473	            9            0.01
+A* (Manhattan)	9	          12	            9	           0.0
+A* (Euclidean)	9	          12	            9	           0.0
+
 Test 2
 [■(8&6&3@0&5&7@1&2&4)]
 Algorithm	Path Cost	Nodes Expanded	Search Depth	Running Time (s)
