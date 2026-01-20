@@ -11,27 +11,24 @@ Test 1
 [3 0 2
  6 1 8
  7 5 4]
-Algorithm	   Path Cost	Nodes Expanded	Search Depth	Running Time (s) /n
-BFS	            9	          319	            9	           0.01       /n
-DFS	          28009	        29312	         28009	       0.15
-IDS	            9	          473	            9            0.01
-A* (Manhattan)	9	          12	            9	           0.0
-A* (Euclidean)	9	          12	            9	           0.0
+| Algorithm      | Path Cost | Nodes Expanded | Search Depth | Running Time (s) |
+| -------------- | --------- | -------------- | ------------ | ---------------- |
+| BFS            | 9         | 319            | 9            | 0.01             |
+| DFS            | 28009     | 29312          | 28009        | 0.15             |
+| IDS            | 9         | 473            | 9            | 0.01             |
+| A* (Manhattan) | 9         | 12             | 9            | 0.00             |
+| A* (Euclidean) | 9         | 12             | 9            | 0.00             |
 
 Test 2
-[■(8&6&3@0&5&7@1&2&4)]
-Algorithm	Path Cost	Nodes Expanded	Search Depth	Running Time (s)
-BFS	27	173855	27	0.34
-DFS	20215	20946	20215	0.10
-IDS	27	9616296	27	42.63
-A* (Manhattan)	27	2930	27	0.02
-A* (Euclidean)	27	6797	27	0.04
-Test 3
-[■(2&3&6@1&0&5@4&7&8)]
-Algorithm	Path Cost	Nodes Expanded	Search Depth	Running Time (s)
-BFS	20	47993	20	0.10
-DFS	49996	56356	49996	0.27
-IDS	20	237256	20	1.05
-A* (Manhattan)	20	534	20	0.00
-A* (Euclidean)	20	718	20	0.01
+[8 6 3
+ 0 5 7
+ 1 2 4]
+| Algorithm      | Path Cost | Nodes Expanded | Search Depth | Running Time (s) |
+| -------------- | --------- | -------------- | ------------ | ---------------- |
+| BFS            | 27        | 173855         | 27           | 0.34             |
+| DFS            | 20215     | 20946          | 20215        | 0.10             |
+| IDS            | 27        | 9616296        | 27           | 42.63            |
+| A* (Manhattan) | 27        | 2930           | 27           | 0.02             |
+| A* (Euclidean) | 27        | 6797           | 27           | 0.04             |
+
 
