@@ -4,13 +4,16 @@ The 8-puzzle is a classic search problem defined on a 3×3 grid containing tiles
 In this project, the 8-puzzle problem is solved and analyzed using several search algorithms, including Breadth-First Search (BFS), Depth-First Search (DFS), Iterative Deepening Search (IDS), and A* search. For the A* algorithm, both Manhattan distance and Euclidean distance heuristics are employed to guide the search toward the goal more efficiently. This allows for a comparative evaluation of uninformed and informed search strategies in terms of solution optimality, time complexity, and memory usage.
 
 GUI
+
+
 <img width="631" height="767" alt="image" src="https://github.com/user-attachments/assets/2d807108-06fd-40cd-b885-488fe960d91f" />
 
 Results: 
 Test 1
-[3 0 2
- 6 1 8
+[3 0 2 |
+ 6 1 8 |
  7 5 4]
+
 
 | Algorithm      | Path Cost | Nodes Expanded | Search Depth | Running Time (s) |
 | -------------- | --------- | -------------- | ------------ | ---------------- |
@@ -21,8 +24,8 @@ Test 1
 | A* (Euclidean) | 9         | 12             | 9            | 0.00             |
 
 Test 2
-[8 6 3
- 0 5 7
+[8 6 3 |
+ 0 5 7 |
  1 2 4]
 | Algorithm      | Path Cost | Nodes Expanded | Search Depth | Running Time (s) |
 | -------------- | --------- | -------------- | ------------ | ---------------- |
