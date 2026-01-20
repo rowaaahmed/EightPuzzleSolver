@@ -11,8 +11,8 @@ Test 1
 [3 0 2
  6 1 8
  7 5 4]
-Algorithm	   Path Cost	Nodes Expanded	Search Depth	Running Time (s)
-BFS	            9	          319	            9	           0.01
+Algorithm	   Path Cost	Nodes Expanded	Search Depth	Running Time (s) /n
+BFS	            9	          319	            9	           0.01       /n
 DFS	          28009	        29312	         28009	       0.15
 IDS	            9	          473	            9            0.01
 A* (Manhattan)	9	          12	            9	           0.0
