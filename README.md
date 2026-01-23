@@ -10,8 +10,10 @@ GUI
 
 Results: 
 Test 1
-[3 0 2 |
- 6 1 8 |
+[3 0 2 
+
+ 6 1 8 
+ 
  7 5 4]
 
 
@@ -24,8 +26,10 @@ Test 1
 | A* (Euclidean) | 9         | 12             | 9            | 0.00             |
 
 Test 2
-[8 6 3 |
- 0 5 7 |
+[8 6 3 
+
+ 0 5 7 
+ 
  1 2 4]
 | Algorithm      | Path Cost | Nodes Expanded | Search Depth | Running Time (s) |
 | -------------- | --------- | -------------- | ------------ | ---------------- |
@@ -35,4 +39,10 @@ Test 2
 | A* (Manhattan) | 27        | 2930           | 27           | 0.02             |
 | A* (Euclidean) | 27        | 6797           | 27           | 0.04             |
 
+# Contributors 
 
+Rowaa Ahmed
+
+Zaid Hatem 
+
+Seif Heggy
